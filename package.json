@@ -1,0 +1,20 @@
+{
+  "name": "geer-board",
+  "version": "0.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js",
+    "stop": "pm2 stop all",
+    "delete:all": "pm2 delete all",
+    "list":"pm2 list",
+    "kill":"pm2 kill"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "pm2": "^5.2.0"
+  }
+}
